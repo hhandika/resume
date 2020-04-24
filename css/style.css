@@ -4,14 +4,14 @@ body {
 }
 
 hr {
-  border-top: 5px dashed #F2D5C4;
-  border-radius: 5px;
+  border-color: #F2D5C4;
+  border-style: dashed;
 }
 
 .content {
   max-width: 800px;
   margin: auto;
-  padding: 10px;
+  padding: 8px;
   text-align: center;
 }
 
