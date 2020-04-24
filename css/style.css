@@ -1,7 +1,33 @@
+body {
+  background: #5BA698;
+  color: white;
+}
+
+hr {
+  border-top: 2px dashed #F2D5C4;
+  border-radius: 5px;
+}
+
 .content {
   max-width: 800px;
   margin: auto;
-  background: white;
   padding: 10px;
   text-align: center;
+}
+
+
+/*pseudo tag/
+/* unvisited link */
+a:link {
+  color: #014034;
+}
+
+/* visited link */
+a:visited {
+  color: #014034;
+}
+
+/* mouse over link */
+a:hover {
+  color: #014034;
 }
