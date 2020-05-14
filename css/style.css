@@ -81,20 +81,6 @@ a:hover {
   display: inline-block;
 }
 
-@media screen and (max-width: 600px){
-  .center-li{
-    display: list-item;
-    margin:auto;
-    padding: 5px;
-  }
-  .footer{
-    height: 200px;
-  }
-  .footer-ul{
-    margin-top: 50px;
-  }
-}
-
 .footer-ul{
   padding-left: 0px;
 }
@@ -104,6 +90,21 @@ a:hover {
   margin: 35px 0px 0px 0px;
   padding: 0;
   color: #014034;
+}
+
+/* settings for small devices */
+@media screen and (max-width: 600px){
+  .center-li{
+    display: list-item;
+    margin-top: 5px;
+    padding: 5px;
+  }
+  .footer{
+    height: 200px;
+  }
+  .bottom-text{
+    margin-top: 0;
+  }
 }
 /* main css ends */
 /* css specific for the project page */
