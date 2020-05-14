@@ -1,20 +1,21 @@
+/* color: light #5BA698; dark #014034*/
 body {
-  background: #5BA698;
-  color: white;
+  background: white;
+  color: grey;
 }
 
 hr {
   border-color: #F2D5C4;
   border-style: dashed;
+  width: 25%;
 }
 
-.content {
-  max-width: 800px;
-  margin: auto;
-  padding: 8px;
+p {
+  padding: 0px;
+  margin: 0;
+  display: block;
   text-align: center;
 }
-
 
 /*pseudo tag/
 /* unvisited link */
@@ -30,4 +31,49 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: #014034;
+}
+
+.top {
+  height: 500px;
+  background: #5BA698;
+}
+
+.content {
+  max-width: 800px;
+  margin: auto;
+  padding: 15px;
+  text-align: center;
+}
+
+.footer{
+  background: #5BA698;
+  text-align: center;
+  margin: auto;
+  position:relative;
+  width: 100%;
+  height: 170px;
+  bottom: 0;
+  left: 0;
+  color: #014034;
+  padding: 0px;
+  vertical-align: top;
+}
+
+.center-li{
+  text-align: center;
+  list-style-type: none;
+  padding: 0px;
+  margin: 60px 20px 0px 20px;
+  padding-left: 0;
+  display: inline-block;
+}
+
+.footer-ul{
+  padding-left: 0px;
+}
+
+.bottom-text{
+  height: 0;
+  margin: 35px 0px 0px 0px;
+  padding: 0;
 }
