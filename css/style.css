@@ -81,6 +81,12 @@ a:hover {
   display: inline-block;
 }
 
+@media screen and (max-width: 600px){
+  .center-li{
+    display: list-item;
+  }
+}
+
 .footer-ul{
   padding-left: 0px;
 }
