@@ -1,7 +1,11 @@
+/* main css starts */
 /* color: light #5BA698; dark #014034*/
 body {
   background: white;
-  color: grey;
+}
+
+h2{
+  color: #5BA698;
 }
 
 hr {
@@ -19,6 +23,7 @@ p {
   margin: 0;
   display: block;
   text-align: center;
+  color: grey;
 }
 
 /*pseudo tag/
@@ -36,6 +41,10 @@ a:visited {
 a:hover {
   color: #014034;
 }
+
+.navbar-custom .navbar-text {
+            color: green;
+        }
 
 .top {
   height: 500px;
@@ -80,4 +89,11 @@ a:hover {
   height: 0;
   margin: 35px 0px 0px 0px;
   padding: 0;
+  color: #014034;
 }
+/* main css ends */
+/* css specific for the project page */
+/* css specific for the fieldwork page */
+/* css specific for the publication page */
+/* css specific for the teachin page */
+/* css specific for the gallery page */
