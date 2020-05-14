@@ -1,5 +1,4 @@
-<?php
-echo '<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #5BA698;">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #5BA698;">
   <!-- <a class="navbar-brand" href="#">Heru Handika</a> -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -22,5 +21,4 @@ echo '<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="backgrou
       <!-- <a class=nav-link href="#">Software</a></li> -->
     </ul>
   </div>
-</nav>';
-?>
+</nav>
