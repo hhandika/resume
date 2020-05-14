@@ -10,6 +10,10 @@ hr {
   width: 25%;
 }
 
+h1{
+  color: red;
+}
+
 p {
   padding: 0px;
   margin: 0;
