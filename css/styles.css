@@ -4,7 +4,7 @@ body {
   background: white;
 }
 
-h2{
+h2 {
   color: #5BA698;
 }
 
@@ -14,7 +14,7 @@ hr {
   width: 25%;
 }
 
-h1{
+h1 {
   color: red;
 }
 
@@ -42,10 +42,6 @@ a:hover {
   color: #014034;
 }
 
-.navbar-custom .navbar-text {
-            color: green;
-        }
-
 .top {
   height: 500px;
   background: #5BA698;
@@ -58,11 +54,11 @@ a:hover {
   text-align: center;
 }
 
-.footer{
+.footer {
   background: #5BA698;
   text-align: center;
   margin: auto;
-  position:relative;
+  position: relative;
   width: 100%;
   height: 180px;
   bottom: 0;
@@ -72,7 +68,7 @@ a:hover {
   vertical-align: top;
 }
 
-.center-li{
+.center-li {
   text-align: center;
   list-style-type: none;
   padding: 0px;
@@ -81,11 +77,11 @@ a:hover {
   display: inline-block;
 }
 
-.footer-ul{
+.footer-ul {
   padding-left: 0px;
 }
 
-.bottom-text{
+.bottom-text {
   height: 0;
   margin: 35px 0px 0px 0px;
   padding: 0;
@@ -93,19 +89,22 @@ a:hover {
 }
 
 /* settings for small devices */
-@media screen and (max-width: 600px){
-  .center-li{
+@media screen and (max-width: 600px) {
+  .center-li {
     display: list-item;
     margin-top: 5px;
     padding: 5px;
   }
-  .footer{
+
+  .footer {
     height: 200px;
   }
-  .bottom-text{
+
+  .bottom-text {
     margin-top: 0;
   }
 }
+
 /* main css ends */
 /* css specific for the project page */
 /* css specific for the fieldwork page */
