@@ -29,6 +29,12 @@ h2 {
   font-size: 1.8em;
 }
 
+h3{
+  font-size: 1.2em;
+  font-family: 'Lora';
+  color: grey;
+}
+
 hr {
   border-color: #F2D5C4;
   border-style: dashed;
@@ -43,6 +49,16 @@ p {
   text-align: center;
   color: grey;
   font-size: 1em
+}
+
+strong{
+  font-size: 1.2em;
+  color: #5BA698;
+}
+
+em{
+  font-style:normal;
+  font-size: 1.2em;
 }
 
 .top {
