@@ -62,6 +62,7 @@ hr {
 .hr-gallery{
   border-color: ;
 }
+/* hr override ends */
 
 p {
   padding: 0px;
@@ -93,7 +94,7 @@ em{
   background: #5BA698;
 }
 
-/* for the project page */
+/*override color schemes for the project page*/
 #top-proj{
   background: #bba686;
 }
@@ -121,6 +122,7 @@ em{
   color: grey;
 }
 
+/* footer settings */
 .content {
   max-width: 800px;
   margin: auto;
@@ -183,13 +185,8 @@ em{
   color: #014034;
   font-size: 0.8em;
 }
-
 /* main css ends */
-/* css specific for the project page */
-/* css specific for the fieldwork page */
-/* css specific for the publication page */
-/* css specific for the teachin page */
-/* css specific for the gallery page */
+
 /* settings for small devices */
 @media screen and (max-width: 600px) {
   .center-li {
