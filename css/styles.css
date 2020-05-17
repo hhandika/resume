@@ -19,6 +19,10 @@ body {
   font-family: 'Montserrat';
 }
 
+b{
+  font-size: 1.2em;
+}
+
 h1 {
   color: red;
 }
@@ -33,6 +37,11 @@ h3{
   font-size: 1.4em;
   font-family: 'Lora';
   color: grey;
+}
+
+.h3-pub{
+  margin-top: 10px;
+  font-size: 1.2em;
 }
 
 hr {
@@ -99,7 +108,7 @@ em{
   background: #5BA698;
 }
 
-/*override color schemes for the project page*/
+/*override color schemes for the other pages*/
 #top-proj{
   background: #bba686;
 }
@@ -121,6 +130,7 @@ em{
 }
 /* top ends */
 
+/* override bootstrap button settings */
 .btn{
   margin-top: 5px;
   border: 1px solid grey;
@@ -149,7 +159,7 @@ em{
   vertical-align: top;
 }
 
-/* override footer color for other pages with id */
+/* override footer color for other pages */
 #footer-proj{
   background: #bba686;
 }
@@ -192,7 +202,7 @@ em{
 }
 /* main css ends */
 
-/* settings for small devices */
+/* footer settings for small devices */
 @media screen and (max-width: 600px) {
   .center-li {
     display: list-item;
