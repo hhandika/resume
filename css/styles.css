@@ -73,6 +73,11 @@ p {
   font-size: 1em
 }
 
+/* for publication marging */
+.pub{
+  margin-top: 10px;
+}
+
 strong{
   font-size: 1.2em;
   color: #5BA698;
