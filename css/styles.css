@@ -213,8 +213,11 @@ em{
     margin-top: 5px;
     padding: 5px;
   }
+  .h3-pub{
+    font-size: 1em;
+  }
   .pub{
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
   .footer {
     height: 200px;
