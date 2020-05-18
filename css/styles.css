@@ -85,6 +85,7 @@ p {
 /* for publication marging */
 .pub{
   margin-top: 10px;
+  font-size: 0.9em;
 }
 
 strong{
@@ -209,7 +210,9 @@ em{
     margin-top: 5px;
     padding: 5px;
   }
-
+  .pub{
+    font-size: 0.8em;
+  }
   .footer {
     height: 200px;
   }
