@@ -1,7 +1,7 @@
 /* main css starts */
 /* color: light #5BA698; dark #014034*/
 a:link {
-  color: #014034;
+  color: #7798D9;
 }
 
 /* visited link */
@@ -14,13 +14,35 @@ a:hover {
   color: #014034;
 }
 
+/* main body link */
+#a-main:link {
+  color: #014034;
+}
+
+#a-main:visited {
+  color: #014034;
+}
+
+#a-main:hover{
+  color: #2994F2;
+}
+
+/* footer link */
+.a-footer:link {
+  color: #014034;
+}
+
+.a-footer:hover {
+  color: white;
+}
+
 body {
   background: white;
   font-family: 'Montserrat';
   font-display: swap;
 }
 
-b{
+b {
   font-size: 1.2em;
 }
 
@@ -35,14 +57,14 @@ h2 {
   font-display: swap;
 }
 
-h3{
+h3 {
   font-size: 1.4em;
   font-family: 'Lora';
   color: grey;
   font-display: swap;
 }
 
-.h3-pub{
+.h3-pub {
   margin-top: 10px;
   font-size: 1.3em;
 }
@@ -54,50 +76,29 @@ hr {
   border-width: 1.5px;
 }
 
-/* override hr color for the project page*/
-.hr-proj{
-  border-color: #e3ded9;
-}
-
-.hr-fwork{
-  border-color: #8C8C88;
-}
-
-.hr-pub{
-  border-color: #F2E2C4;
-}
-
-.hr-teaching{
-  border-color: #F2CC85;
-}
-
-.hr-gallery{
-  border-color: ;
-}
 /* hr override ends */
-
 p {
   padding: 0px;
   margin: 0;
   display: block;
   text-align: center;
-  color: grey;
+  color: #808080;
   font-size: 1em
 }
 
 /* for publication marging */
-.pub{
+.pub {
   margin-top: 10px;
   font-size: 0.9em;
 }
 
-strong{
+strong {
   font-size: 1.2em;
   color: #5BA698;
 }
 
-em{
-  font-style:normal;
+em {
+  font-style: normal;
   font-size: 1.2em;
 }
 
@@ -113,32 +114,44 @@ em{
 }
 
 /*override color schemes for the other pages*/
-#top-proj{
-  background: #bba686;
+#top-proj {
+  background: #55A6D9;
 }
 
-#top-fwork{
+#top-fwork {
   background: #9DA65D;
 }
 
-#top-pub{
+#top-pub {
   background: #7798D9;
 }
 
-#top-teaching{
-  background: #8C566F;
+#top-teaching {
+  background: #BFA965;
 }
 
-#top-gallery{
-  background: #D9B504;
+#top-gallery {
+  background: #bba686;
 }
+
 /* top ends */
-
 /* override bootstrap button settings */
-.btn{
+.btn {
   margin-top: 5px;
   border: 1px solid grey;
-  color: grey;
+  color: #014034;
+}
+
+.btn:link {
+  color: #014034;
+}
+
+.btn:visited {
+  color: #014034;
+}
+
+.btn:hover {
+  color: white;
 }
 
 /* footer settings */
@@ -158,31 +171,32 @@ em{
   height: 180px;
   bottom: 0;
   left: 0;
-  color: #014034;
+  color: white;
   padding: 0px;
   vertical-align: top;
 }
 
 /* override footer color for other pages */
-#footer-proj{
-  background: #bba686;
+#footer-proj {
+  background: #55A6D9;
 }
 
-#footer-fwork{
+#footer-fwork {
   background: #9DA65D;
 }
 
-#footer-pub{
+#footer-pub {
   background: #7798D9;
 }
 
-#footer-teaching{
-  background: #8C566F;
+#footer-teaching {
+  background: #BFA965;
 }
 
-#footer-gallery{
-  background: #D9B504;
+#footer-gallery {
+  background: #bba686;
 }
+
 .center-li {
   text-align: center;
   list-style-type: none;
@@ -204,8 +218,8 @@ em{
   color: #014034;
   font-size: 0.8em;
 }
-/* main css ends */
 
+/* main css ends */
 /* footer settings for small devices */
 @media screen and (max-width: 600px) {
   .center-li {
@@ -213,9 +227,11 @@ em{
     margin-top: 5px;
     padding: 5px;
   }
-  .pub{
+
+  .pub {
     font-size: 0.9em;
   }
+
   .footer {
     height: 200px;
   }
