@@ -1,7 +1,7 @@
 /* main css starts */
 /* color: light #5BA698; dark #014034*/
 a:link {
-  color: #E07619;
+  color: #e07619;
 }
 
 /* visited link */
@@ -23,8 +23,8 @@ a:hover {
   color: #014034;
 }
 
-#a-main:hover{
-  color: #2994F2;
+#a-main:hover {
+  color: #2994f2;
 }
 
 /* footer link */
@@ -38,7 +38,7 @@ a:hover {
 
 body {
   background: white;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-display: swap;
 }
 
@@ -51,15 +51,15 @@ h1 {
 }
 
 h2 {
-  color: #5BA698;
-  font-family: 'Lora';
+  color: #5ba698;
+  font-family: "Lora";
   font-size: 1.8em;
   font-display: swap;
 }
 
 h3 {
   font-size: 1.4em;
-  font-family: 'Lora';
+  font-family: "Lora";
   color: grey;
   font-display: swap;
 }
@@ -70,7 +70,7 @@ h3 {
 }
 
 hr {
-  border-color: #F2D5C4;
+  border-color: #f2d5c4;
   border-style: dashed;
   width: 40%;
   border-width: 1.5px;
@@ -83,7 +83,7 @@ p {
   display: block;
   text-align: center;
   color: #808080;
-  font-size: 1em
+  font-size: 1em;
 }
 
 /* for publication marging */
@@ -94,7 +94,7 @@ p {
 
 strong {
   font-size: 1.2em;
-  color: #5BA698;
+  color: #5ba698;
 }
 
 em {
@@ -105,33 +105,33 @@ em {
 /* top */
 .top-main {
   height: 500px;
-  background: #5BA698;
+  background: #5ba698;
 }
 
 .top {
   height: 300px;
-  background: #5BA698;
+  background: #5ba698;
 }
 
 /*override color schemes for the other pages*/
 #top-proj {
-  background: #55A6D9;
+  background: #5ba698;
 }
 
 #top-fwork {
-  background: #9DA65D;
+  background: #5ba698;
 }
 
 #top-pub {
-  background: #7798D9;
+  background: #5ba698;
 }
 
 #top-teaching {
-  background: #BFA965;
+  background: #5ba698;
 }
 
 #top-gallery {
-  background: #bba686;
+  background: #5ba698;
 }
 
 /* top ends */
@@ -163,7 +163,7 @@ em {
 }
 
 .footer {
-  background: #5BA698;
+  background: #5ba698;
   text-align: center;
   margin: auto;
   position: relative;
@@ -178,23 +178,23 @@ em {
 
 /* override footer color for other pages */
 #footer-proj {
-  background: #55A6D9;
+  background: #5ba698;
 }
 
 #footer-fwork {
-  background: #9DA65D;
+  background: #5ba698;
 }
 
 #footer-pub {
-  background: #7798D9;
+  background: #5ba698;
 }
 
 #footer-teaching {
-  background: #BFA965;
+  background: #5ba698;
 }
 
 #footer-gallery {
-  background: #bba686;
+  background: #5ba698;
 }
 
 .center-li {
