@@ -156,6 +156,13 @@ em {
   color: white;
 }
 
+.sub-content {
+  max-width: 800px;
+  margin: auto;
+  padding: 12px;
+  text-align: center;
+}
+
 /* footer settings */
 .content {
   max-width: 800px;
