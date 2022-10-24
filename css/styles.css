@@ -36,6 +36,8 @@ a:hover {
   color: white;
 }
 
+/* end */
+
 body {
   background: white;
   font-family: "Montserrat";
@@ -113,6 +115,24 @@ em {
   background: #5ba698;
 }
 
+ul.grey {
+  margin-left: 0;
+  padding-left: 40px;
+  list-style-type: circle;
+  list-style-position: outside;
+  color: #808080;
+  font-size: 1em;
+}
+
+ol {
+  margin-left: 0;
+  padding-left: 40px;
+  list-style-type: circle;
+  list-style-position: outside;
+  color: #808080;
+  font-size: 1em;
+}
+
 /*override color schemes for the other pages*/
 #top-proj {
   background: #5ba698;
@@ -152,6 +172,13 @@ em {
 
 .btn:hover {
   color: white;
+}
+
+.sub-content {
+  max-width: 800px;
+  margin: auto;
+  padding: 12px;
+  text-align: center;
 }
 
 /* footer settings */
