@@ -278,7 +278,7 @@ ol {
 
 /* main css ends */
 /* footer settings for small devices */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 991px) {
   .center-li {
     display: list-item;
     margin-top: 5px;
