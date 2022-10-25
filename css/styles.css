@@ -111,6 +111,11 @@ header {
   background-image: linear-gradient(132deg, #f4d03f 0%, #16a085 100%);
 }
 
+/* .navbar {
+  background-color: #f4d03f;
+  background-image: linear-gradient(132deg, #f4d03f 0%, #16a085 100%);
+} */
+
 .landing-page {
   background-color: #f4d03f;
   background-image: linear-gradient(132deg, #f4d03f 0%, #16a085 100%);
@@ -278,6 +283,15 @@ ol {
     display: list-item;
     margin-top: 5px;
     padding: 5px;
+  }
+
+  .landing-page {
+    margin-top: 5vh;
+  }
+
+  .navbar {
+    background-color: #f4d03f;
+    background-image: linear-gradient(132deg, #f4d03f 0%, #16a085 100%);
   }
 
   .pub {
