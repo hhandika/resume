@@ -54,7 +54,7 @@ h1 {
 }
 
 h2 {
-  color: #5ba698;
+  color: #16a085;
   font-family: "Lora";
   font-size: 1.8em;
   font-display: swap;
@@ -78,6 +78,10 @@ hr {
   border-width: 1px;
 }
 
+.project {
+  text-align: left;
+}
+
 /* hr override ends */
 p {
   padding: 0px;
@@ -96,7 +100,7 @@ p {
 
 strong {
   font-size: 1.2em;
-  color: #5ba698;
+  color: #16a085;
 }
 
 em {
