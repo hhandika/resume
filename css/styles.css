@@ -80,6 +80,8 @@ hr {
 
 .project {
   text-align: left;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
 }
 
 /* hr override ends */
