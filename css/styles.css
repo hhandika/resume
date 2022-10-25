@@ -109,12 +109,19 @@ em {
 header {
   background-color: #f4d03f;
   background-image: linear-gradient(132deg, #f4d03f 0%, #16a085 100%);
-  /* background-size: cover; */
-  height: 100%;
-  align-items: center;
-  /* display: flex; */
-  align-items: center;
+}
+
+.landing-page {
+  background-color: #f4d03f;
+  background-image: linear-gradient(132deg, #f4d03f 0%, #16a085 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .landing-text {
