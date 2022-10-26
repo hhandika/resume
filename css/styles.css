@@ -144,15 +144,19 @@ header {
 .landing-text {
   color: azure;
   font-size: 1em;
-  margin-top: 10px;
+  margin: 10px 0px 0px 0px;
 }
 
 .top {
   height: 150px;
 }
 
+.spacer-short {
+  height: 10px;
+}
+
 .spacer {
-  width: 5px;
+  width: 17px;
 }
 
 ul.grey {
