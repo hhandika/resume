@@ -49,8 +49,9 @@ b {
 }
 
 h1 {
-  color: white;
+  color: azure;
   text-align: center;
+  margin-top: 5px;
 }
 
 h2 {
@@ -87,7 +88,6 @@ hr {
 .navbar {
   background-color: #16a085;
   letter-spacing: 2px;
-  height: 5vh;
   opacity: 0.85;
 }
 
@@ -131,19 +131,17 @@ header {
   background-position: center;
   height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 .landing-text {
   color: white;
   font-size: 1em;
-  text-align: center;
   margin-top: 10px;
 }
 
 .top {
-  height: 20vh;
+  height: 150px;
 }
 
 ul.grey {
@@ -290,10 +288,6 @@ ol {
     display: list-item;
     margin-top: 5px;
     padding: 5px;
-  }
-
-  .landing-page {
-    margin-top: 5vh;
   }
 
   .pub {
