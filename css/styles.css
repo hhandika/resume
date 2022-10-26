@@ -134,14 +134,26 @@ header {
   align-items: center;
 }
 
+.landing-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  color: azure;
+}
+
 .landing-text {
-  color: white;
+  color: azure;
   font-size: 1em;
   margin-top: 10px;
 }
 
 .top {
   height: 150px;
+}
+
+.spacer {
+  width: 10px;
 }
 
 ul.grey {
