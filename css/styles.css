@@ -73,7 +73,7 @@ h3 {
 }
 
 hr {
-  border-color: #f2d5c4;
+  border-color: #808080;
   border-style: dashed solid;
   border-width: 1px;
 }
@@ -82,6 +82,13 @@ hr {
   text-align: left;
   margin-bottom: 1vh;
   margin-top: 1vh;
+}
+
+.navbar {
+  background-color: #16a085;
+  letter-spacing: 2px;
+  height: 5vh;
+  opacity: 0.85;
 }
 
 /* hr override ends */
@@ -136,7 +143,7 @@ header {
 }
 
 .top {
-  height: 150px;
+  height: 20vh;
 }
 
 ul.grey {
@@ -287,11 +294,6 @@ ol {
 
   .landing-page {
     margin-top: 5vh;
-  }
-
-  .navbar {
-    background-color: #f4d03f;
-    background-image: linear-gradient(132deg, #f4d03f 0%, #16a085 100%);
   }
 
   .pub {
