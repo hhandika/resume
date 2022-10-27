@@ -161,8 +161,8 @@ header {
   height: 150px;
 }
 
-.spacer-short {
-  height: 10px;
+.spacer-small {
+  width: 2px;
 }
 
 .spacer {
