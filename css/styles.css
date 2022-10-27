@@ -86,7 +86,9 @@ hr {
 }
 
 .navbar {
-  background-color: rgba(22, 160, 133, 0.7);
+  background-color: #f4d03f;
+  background-image: linear-gradient(132deg, #f4d03f 0%, #16a085 100%);
+  /* background-color: rgba(22, 160, 133, 0.7); */
   letter-spacing: 2px;
 }
 
@@ -166,7 +168,7 @@ svg {
 }
 
 .top {
-  height: 150px;
+  height: 100px;
 }
 
 ul.grey {
@@ -318,11 +320,11 @@ ol {
   .landing-page {
     height: auto;
   }
-
+  /* 
   .navbar {
     background-color: #f4d03f;
     background-image: linear-gradient(132deg, #f4d03f 0%, #16a085 100%);
-  }
+  } */
 
   .pub {
     font-size: 0.9em;
