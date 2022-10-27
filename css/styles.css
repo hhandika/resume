@@ -94,6 +94,7 @@ hr {
 
 #navbar-landing {
   background-color: transparent;
+  background-image: none;
 }
 /* hr override ends */
 p {
