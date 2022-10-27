@@ -321,6 +321,12 @@ ol {
   .landing-page {
     height: auto;
   }
+
+  #navbar-landing {
+    background-color: rgba(22, 160, 133, 0.7);
+    background-image: none;
+  }
+
   /* 
   .navbar {
     background-color: #f4d03f;
