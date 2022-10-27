@@ -129,9 +129,15 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.landing-img {
+  width: auto;
+  max-height: 100vh;
 }
 
 .landing-logo {
