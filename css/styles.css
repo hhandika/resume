@@ -86,11 +86,13 @@ hr {
 }
 
 .navbar {
-  background-color: #16a085;
+  background-color: rgba(22, 160, 133, 0.7);
   letter-spacing: 2px;
-  opacity: 0.85;
 }
 
+#navbar-landing {
+  background-color: transparent;
+}
 /* hr override ends */
 p {
   padding: 0px;
@@ -315,6 +317,11 @@ ol {
 
   .landing-page {
     height: auto;
+  }
+
+  .navbar {
+    background-color: #f4d03f;
+    background-image: linear-gradient(132deg, #f4d03f 0%, #16a085 100%);
   }
 
   .pub {
