@@ -142,8 +142,9 @@ header {
   color: azure;
 }
 
-.btn-landing {
+.btn-success {
   outline-color: #014034;
+  color: white;
 }
 
 .btn:hover {
@@ -153,20 +154,16 @@ header {
 
 .landing-text {
   color: azure;
-  font-size: 1em;
-  margin: 10px 0px 0px 0px;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+svg {
+  margin: 0px 20px 20px 0px;
 }
 
 .top {
   height: 150px;
-}
-
-.spacer-small {
-  width: 2px;
-}
-
-.spacer {
-  width: 8px;
 }
 
 ul.grey {
