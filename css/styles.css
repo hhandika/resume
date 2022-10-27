@@ -128,11 +128,12 @@ header {
   background-image: linear-gradient(132deg, #f4d03f 0%, #16a085 100%);
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-position: center; */
+  background-position: center;
+  background-attachment: fixed;
   height: 100vh;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 .landing-logo {
@@ -310,6 +311,10 @@ ol {
     display: list-item;
     margin-top: 5px;
     padding: 5px;
+  }
+
+  .landing-page {
+    height: auto;
   }
 
   .pub {
