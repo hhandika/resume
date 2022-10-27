@@ -73,7 +73,47 @@
   </head>
   <body>
     <header>
-      <div id="navbar"></div>
+      <nav
+        id="navbar-landing"
+        class="navbar fixed-top navbar-expand-lg navbar-dark"
+      >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="project.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pub.html">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="teaching.html">Teaching & Outreach</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="fieldwork.html">Fieldwork</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="code.html">Code</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <div class="landing-page">
       <div class="container">
@@ -86,7 +126,11 @@
 
             <p class="landing-text">
               I am <em>Heru Handika</em>. I am a PhD candidate at
-              <a id="a-main" target="_blank" href="https://esselstyn.github.io/"
+              <a
+                title="Esselstyn's lab website"
+                class="a-main"
+                target="_blank"
+                href="https://esselstyn.github.io/"
                 >Esselstyn's Lab</a
               >, Louisiana State University, USA. My main research interest is
               centered around understanding how complex topography and
@@ -97,7 +141,7 @@
             </p>
             <p class="landing-logo">
               <a
-                id="a-main"
+                class="a-main"
                 target="_blank"
                 href="https://scholar.google.com/citations?user=Jaub_M0AAAAJ&hl=en"
               >
@@ -124,7 +168,11 @@
                     d="M4.26,10.5c.84-1.77,2.65-3,4.74-3s3.9,1.23,4.74,3H4.26Z"
                   /></svg
               ></a>
-              <a id="a-main" target="_blank" href="https://github.com/hhandika">
+              <a
+                class="a-main"
+                target="_blank"
+                href="https://github.com/hhandika"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
@@ -138,7 +186,7 @@
                   /></svg
               ></a>
               <a
-                id="a-main"
+                class="a-main"
                 target="_blank"
                 href="https://twitter.com/heru_hdk"
               >
@@ -155,7 +203,7 @@
                   /></svg
               ></a>
               <a
-                id="a-main"
+                class="a-main"
                 target="_blank"
                 href="https://www.instagram.com/heru_hdka/"
               >
@@ -177,7 +225,6 @@
       </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/navbar.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"

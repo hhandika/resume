@@ -15,15 +15,15 @@ a:hover {
 }
 
 /* main body link */
-#a-main:link {
+.a-main:link {
   color: #014034;
 }
 
-#a-main:visited {
+.a-main:visited {
   color: #014034;
 }
 
-#a-main:hover {
+.a-main:hover {
   color: #e07619;
 }
 
