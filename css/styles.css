@@ -36,6 +36,9 @@ a:hover {
   color: white;
 }
 
+.img-padded {
+  padding: 5px 5px 5px 5px;
+}
 /* end */
 
 body {
@@ -64,7 +67,14 @@ h2 {
 h3 {
   font-size: 1.4em;
   font-family: "Lora";
-  color: grey;
+  color: #555555;
+  font-display: swap;
+}
+
+h4 {
+  font-size: 1.2em;
+  font-family: "Lora";
+  color: #757575;
   font-display: swap;
 }
 
@@ -92,6 +102,11 @@ hr {
   letter-spacing: 2px;
 }
 
+.button-padding {
+  padding-top: 8px;
+  padding-bottom: 16px;
+}
+
 #navbar-landing {
   background-color: transparent;
   background-image: none;
@@ -102,11 +117,15 @@ p {
   margin: 0;
   display: block;
   text-align: center;
-  color: #808080;
+  color: #6f6f6f;
   font-size: 1em;
 }
 
-/* for publication marging */
+p.social {
+  padding-left: 26px;
+}
+
+/* for publication margin */
 .pub {
   margin-top: 10px;
   font-size: 0.9em;
@@ -120,6 +139,7 @@ strong {
 em {
   font-style: normal;
   font-size: 1.2em;
+  color: #555555;
 }
 
 /* top */
@@ -144,18 +164,19 @@ header {
 .landing-logo {
   display: flex;
   justify-content: center;
-  margin-top: 5px;
   color: azure;
 }
 
 .btn-success {
-  outline-color: #014034;
-  color: white;
+  outline-color: #f4d03f !important;
+  background-color: #f4d03f !important;
+  border-color: transparent !important;
+  color: #014034 !important;
 }
 
 .btn:hover {
-  background-color: #f4d03f;
-  color: white;
+  background-color: #014034 !important;
+  color: azure !important;
 }
 
 .landing-text {
@@ -216,11 +237,17 @@ ol {
   background-image: linear-gradient(132deg, #f4d03f 0%, #16a085 100%);
 }
 
+.img-padded {
+  padding: 8px 8px 8px 8px;
+}
+
 /* top ends */
 /* override bootstrap button settings */
 .btn {
   margin-top: 5px;
-  border: 1px solid grey;
+  margin-left: 4px;
+  margin-right: 4px;
+  border: 1.2px solid #014034;
   color: #014034;
 }
 
